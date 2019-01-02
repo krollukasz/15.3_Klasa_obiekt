@@ -7,7 +7,7 @@ function Phone(brand, price, color, display, camera) {
 }
 
 Phone.prototype.printInfo = function() {
-  console.log("The phone brand is " + this.brand + ", color is" + this.color + ", and the price is " + this.price + ". Also display is " + this.display + ", and camera is " + this.camera + ".");
+  console.log("The phone brand is " + this.brand + ", color is " + this.color + ", and the price is " + this.price + ". Also display is " + this.display + ", and camera is " + this.camera + ".");
 }
 
 var SamsungGalaxyS6 = new Phone("Samsung Galaxy S6", 689, "black", "5.1 inches", "16 Mpx");
